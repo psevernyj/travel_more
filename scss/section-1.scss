@@ -1,0 +1,46 @@
+.section-1 {
+  background-color: #5474fd;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  .subtitle {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .navigation {
+    font-family: Aleo;
+
+    ul {
+      li {
+        display: inline-block;
+        list-style-type: none;
+        text-transform: uppercase;
+        padding-left: 2rem;
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+
+      }
+    }
+
+    .link {
+      padding: 1rem 1rem;
+      transition: all 0.2s;
+
+      &:hover {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+        -webkit-transform: translate(2rem);
+      }
+
+    }
+
+
+  }
+}

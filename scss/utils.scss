@@ -1,0 +1,43 @@
+.button-blue{
+  font-family: Aleo;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  display: inline-block;
+  letter-spacing: 0;
+  border: 2px solid #5474fd;
+  background-image: linear-gradient(-135deg,#5474fd 50%, #496bfe 50%);
+  border-radius: 2px;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &:hover::after {
+    transform: scale(2);
+    opacity: 0;
+  }
+
+  &:active {
+    transform: translateY(5px);
+  }
+}
+.heading-paragraph{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: initial;
+  font-family: Aleo;
+  font-weight: 100;
+  font-size: 3rem;
+  color: white;
+}
+.paragraph{
+  font-family: Josefin Sans;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #a6a2a2;
+  padding-bottom: 3rem;
+
+}

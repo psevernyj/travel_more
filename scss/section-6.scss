@@ -1,0 +1,58 @@
+.section-6{
+  background-image: url("../img/section-6/section_6_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  .title{
+    text-align: center;
+    font-family: Aleo;
+    font-size: 3.6rem;
+    font-weight: lighter;
+    color: white;
+    padding-top:12rem ;
+    margin-bottom: 15rem;
+  }
+
+  .story{
+    background-color: rgba(0, 0, 0, 0.3);
+    width:1000px;
+    height: 284px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 2rem 4rem rgba(0,0,0, 0.3);
+    padding: 6rem;
+    margin-bottom: 10rem;
+    position: relative;
+
+  }
+  .shape{
+    position: absolute;
+    top: 0; left: 0;
+    .img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+  }
+  .text{
+    position: absolute;
+    top: 0;
+    left: 475px;
+
+    .heading-paragraph{
+      font-family: Josefin Sans;
+      text-transform: uppercase;
+      font-weight: lighter;
+      font-size: 2rem;
+    }
+    .paragraph{
+      & span{
+        font-family: Oswald;
+        font-size: 5rem;
+        color: #5474fd;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,39 @@
+.footer{
+  background-color: #232323;
+  background-size: cover;
+  width:100%;
+  height: 30vh;
+  text-align: center;
+  & h1{
+    font-family: Josefin Sans;
+    font-size: 2.4rem;
+    letter-spacing: .3rem;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10rem;
+
+  }
+  & h2{
+    font-family: Josefin Sans;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    color: white;
+    padding: 2rem 4rem;
+  }
+  .footer-nav{
+    transition: all .3s;
+    ul{
+      li{
+        list-style-type: none;
+        display: inline-block;
+        &:not(:last-child) {
+          margin-right: 2.2rem;
+        }
+      }
+      li:hover{
+        transform: scale(1.2);
+      }
+    }
+  }
+}
